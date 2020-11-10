@@ -28,7 +28,7 @@ Mikko Luukko, Aleksi Sahala, Sam Hardwick, Krister Lindén. 2020. Akkadian Treeb
 Data available since: UD v2.7
 License: CC BY-SA 3.0
 Includes text: yes
-Genre: nonfiction
+Genre: nonfiction government
 Lemmas: automatic with corrections
 UPOS: converted with corrections
 XPOS: manual native

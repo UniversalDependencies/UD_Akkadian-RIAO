@@ -14905,54 +14905,6 @@
 24	ublam	_	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	15	conj	15:conj	_
 25	ma	_	CCONJ	_	_	24	dep	24:dep	_
 
-# sent_id = Q004471-7
-# text = ina ūmešuma Aššur-naṣir-apli rubû naʾdu pālih ilāni rabûti ša biblī libbišu Enlil ušekšidušuma naphar malkī lā māgirīšu ikšudu rabītu qāssu kāšid ayyābīšu
-1	ina	ina	ADP	PRP	_	2	case	2:case	ina
-2-4	ūmešuma	_	_	_	_	_	_	_	_
-2	ūme	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	16	obl	16:obl	u₄-me-šu₂-ma
-3	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	2	det	2:det	_
-4	ma	_	PART	_	_	2	dep	2:dep	_
-5	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}aš-šur-PAP-A
-6	rubû	rubû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	5	appos	5:appos	NUN
-7	naʾdu	naʾdu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	6:amod	na-a-du
-8	pālih	pālihu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	5	appos	5:appos	pa-lih₂
-9	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	8	nmod:poss	8:nmod:poss	DINGIR.MEŠ
-10	rabûti	rabû	ADJ	AJ	Gender=Masc|Number=Plur	9	amod	9:amod	GAL.MEŠ
-11	ša	ša	PRON	DET	_	16	obj	16:obj	ša₂
-12	biblī	biblu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Plur	11	nmod:poss	11:nmod:poss	bi-ib-li
-13-14	libbišu	_	_	_	_	_	_	_	_
-13	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	12	nmod:poss	12:nmod:poss	lib₃-bi-šu₂
-14	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	13	det:poss	13:det:poss	_
-15	Enlil	Enlil	PROPN	DN	Gender=Masc	16	nsubj	16:nsubj	{d}BAD
-16-18	ušekšidušuma	_	_	_	_	_	_	_	_
-16	ušekšidu	_	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=S	5	acl:relcl	5:acl:relcl	_
-17	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	16	obj	16:obj	_
-18	ma	_	CCONJ	_	_	23	cc	23:cc	_
-19	naphar	napharu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	25	obj	25:obj	nap-har
-20	malkī	malku	NOUN	N	Gender=Masc|Number=Plur	19	nmod:poss	19:nmod:poss	mal-ki
-21-22	lā māgirīšu	_	_	_	_	_	_	_	_
-21	lā māgirī	lā|māgiru	NOUN	MOD|N	Gender=Masc|NounBase=Suffixal|Number=Plur	20	nmod:poss	20:nmod:poss	la|ma-gi-ri-šu₂
-22	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	21	det:poss	21:det:poss	_
-23	ikšudu	kašādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	16	conj	16:conj	ik-šu₂-du
-24	rabītu	rabû	ADJ	AJ	Case=Nom|Gender=Fem|Number=Sing	25	amod	25:amod	GAL-tu
-25-26	qāssu	_	_	_	_	_	_	_	_
-25	qās	qātu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	23	nsubj	23:nsubj	qa-a-su
-26	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	25	det:poss	25:det:poss	_
-27	kāšid	kāšidu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	5	appos	5:appos	ka-šid
-28-29	ayyābīšu	_	_	_	_	_	_	_	_
-28	ayyābī	ayyābu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Plur	27	nmod:poss	27:nmod:poss	a-a-bi-šu₂
-29	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	28	det:poss	28:det:poss	_
-
-# sent_id = Q004471-8
-# text = ša ina ašri namrāṣi uparriru kiṣir multarhī
-1	ša	ša	PRON	DET	_	5	nsubj	5:nsubj	ša₂
-2	ina	ina	ADP	PRP	_	3	case	3:case	ina
-3	ašri	ašru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	5:obl	aš₂-ri
-4	namrāṣi	namrāṣu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	3	nmod:poss	3:nmod:poss	nam-ra-ṣi
-5	uparriru	parāʾu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D	0	root	0:root	u₂-pa-ri-ru
-6	kiṣir	kiṣru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	5	obj	5:obj	ki-ṣir
-7	multarhī	muštarhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	6	nmod:poss	6:nmod:poss	mul-tar-hi
-
 # sent_id = Q004471-9
 # text = enūma Aššur bēlu rabû nābû šumiya mušarbû šarrūtiya eli šarrāni ša kibrāt arba’i šumī rabîš lū ušarbû kakkašu lā pādâ ana idī bēlūtiya lū ušatmihi mātāti huršānī dannūte ana pêli šuknuše u šapāri aggiš umaʾʾeranni
 1	enūma	inūma	ADV	SBJ	_	20	advmod	20:advmod	e-nu-ma
@@ -15521,12 +15473,6 @@
 13	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	12	det:poss	12:det:poss	_
 14	dūra	dūru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	15	obl	15:obl	BAD₃
 15	uhallip	halāpu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	11	conj	11:conj	u₂-ha-al-lip
-
-# sent_id = Q004471-42
-# text = ina Abi UD.x.KAM₂
-1	ina	ina	ADP	PRP	_	2	case	2:case	ina
-2	Abi	Abu	PROPN	MN	Case=Gen	0	root	0:root	_
-3	UD.x.KAM₂	_	ADJ	u	_	2	amod	2:amod	UD.x.KAM₂
 
 # sent_id = Q004471-46
 # text = batūlīšunu batulātešunu ana maqlūti aqlu
@@ -16239,13 +16185,6 @@
 5	Kalzi	Kalzi	PROPN	GN	Case=Gen	6	obl	6:obl	{URU}kal₃-zi
 6	attumuš	namāšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	at-tu-muš
 
-# sent_id = Q004471-93
-# text = ana nērebe ša Babite
-1	ana	ana	ADP	PRP	_	2	case	2:case	a-na
-2	nērebe	nērebu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	0	root	0:root	_
-3	ša	ša	ADP	DET	_	4	case	4:case	ša
-4	Babite	Babitu	PROPN	SN	Case=Gen	2	nmod	2:nmod	{URU}ba-bi-te
-
 # sent_id = Q004471-94
 # text = ālāni ina išātāti aqlu
 1	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	4	obj	4:obj	URU.DIDLI
@@ -16379,35 +16318,6 @@
 3	annīte	annû	DET	DP	Case=Gen|Gender=Fem|Number=Sing	2	amod	2:amod	an-ni-te-ma
 4	ma	_	PART	_	_	3	dep	3:dep	_
 5	aktuʾaš	kâšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	ak-tu-aš₂
-
-# sent_id = Q004471-106
-# text = 1 mē 50 ālāni ša Larbusaya Dur-Lullumaya Bunaisaya Baraya
-1	1 mē 50	_|meʾatu|_	NUM	n|NU|n	_	2	nummod	2:nummod	1|ME|50
-2	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	0	root	0:root	URU.DIDLI
-3	ša	ša	ADP	DET	_	4	case	4:case	ša₂
-4	Larbusaya	Larbusayu	PROPN	EN	Gender=Masc	2	nmod	2:nmod	{URU}la-ar-bu-sa-a-a
-5	Dur-Lullumaya	Dur-Lullumayu	PROPN	EN	Gender=Masc	4	conj	4:conj	{URU}BAD₃-lu-lu-ma-a-a
-6	Bunaisaya	Bunisayu	PROPN	EN	Gender=Masc	4	conj	4:conj	{URU}bu-na-i-sa-a-a
-7	Baraya	Barayu	PROPN	EN	Gender=Masc	4	conj	4:conj	{URU}ba-ra-a-a
-
-# sent_id = Q004471-107
-# text = dēktašunu adūk šallassunu ašlul ālānišunu appul aqqur ina išātāti aqlu
-1-2	dēktašunu	_	_	_	_	_	_	_	_
-1	dēkta	_	NOUN	_	Gender=Fem|NounBase=Suffixal|Number=Sing	3	obj	3:obj	_
-2	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	1	det:poss	1:det:poss	_
-3	adūk	dâku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	a-duk
-4-5	šallassunu	_	_	_	_	_	_	_	_
-4	šallas	šallatu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	6	obj	6:obj	šal-la-su-nu
-5	sunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	4	det:poss	4:det:poss	_
-6	ašlul	šalālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	aš-lul
-7-8	ālānišunu	_	_	_	_	_	_	_	_
-7	ālāni	ālu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Plur	9	obj	9:obj	URU.DIDLI-šu₂-nu
-8	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	7	det:poss	7:det:poss	_
-9	appul	napālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	a-pul₃
-10	aqqur	naqāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	a-qur
-11	ina	ina	ADP	PRP	_	12	case	12:case	ina
-12	išātāti	_	NOUN	_	Gender=Fem|NounBase=Free|Number=Plur	13	obl	13:obl	_
-13	aqlu	_	VERB	_	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	_
 
 # sent_id = Q004471-108
 # text = 50 ummānāti ša Baraya ina mithuṣi ina ṣēri adūk
@@ -17362,20 +17272,6 @@
 3	assakan	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	a-sa-kan
 4	bēdāk	_	VERB	_	Gender=Com|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	3	conj	3:conj	_
 
-# sent_id = Q004471-174
-# text = alpī immerī karānī diqārī
-1	alpī	alpu	NOUN	N	Gender=Masc|Number=Plur	0	root	0:root	GU₄.MEŠ
-2	immerī	immeru	NOUN	N	Gender=Masc|Number=Plur	1	conj	1:conj	UDU.MEŠ
-3	karānī	karānu	NOUN	N	Gender=Masc|Number=Plur	1	conj	1:conj	GEŠTIN.MEŠ
-4	diqārī	diqāru	NOUN	N	Gender=Masc|Number=Plur	1	conj	1:conj	UTUL₂.MEŠ
-
-# sent_id = Q004471-175
-# text = maddattu ša Kibaki attahra
-1	maddattu	maddattu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	4	obj	4:obj	ma-da-tu₂
-2	ša	ša	ADP	DET	_	3	case	3:case	ša₂
-3	Kibaki	Kibaku	PROPN	SN	Case=Gen	1	nmod	1:nmod	{URU}ki-ba-ki
-4	attahra	mahāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	at-tah-ra
-
 # sent_id = Q004471-176
 # text = ultu Kibaki attumuš ana Mateiate aqṭirib
 1	ultu	ištu	ADP	PRP	_	2	case	2:case	TA
@@ -17584,27 +17480,6 @@
 1	narkabāti	narkabtu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	3	obj	3:obj	{GIŠ}GIGIR.MEŠ
 2	ummānāti	ummānu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	1	conj	1:conj	ERIM.HI.A.MEŠ
 3	ušētiqi	etēqu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=S	0	root	0:root	u₂-še-ti-qi
-
-# sent_id = Q004471-192
-# text = ālāni ša šiddi hūliya šaknū
-1	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	0	root	0:root	URU.DIDLI
-2	ša	ša	PRON	DET	_	6	nsubj	6:nsubj	ša₂
-3	šiddi	šiddu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	6:obl	ši-di
-4-5	hūliya	_	_	_	_	_	_	_	_
-4	hūli	hūlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	3	nmod:poss	3:nmod:poss	hu-li-ia
-5	ya	_	PRON	_	Number=Sing|Person=1	4	det:poss	4:det:poss	_
-6	šaknū	šaknu	VERB	AJ	Gender=Masc|Number=Plur|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	1	acl:relcl	1:acl:relcl	_
-
-# sent_id = Q004471-193
-# text = libbi Kašiyari alpī immerī karānī diqārī gurpissī attahar
-1	libbi	libbu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	8	obl	8:obl	ŠA₃
-2	Kašiyari	Kašiyaru	PROPN	GN	Case=Gen	1	nmod:poss	1:nmod:poss	{KUR}kaš-ia-ri
-3	alpī	alpu	NOUN	N	Gender=Masc|Number=Plur	8	obj	8:obj	GU₄.MEŠ
-4	immerī	immeru	NOUN	N	Gender=Masc|Number=Plur	3	conj	3:conj	UDU.MEŠ
-5	karānī	karānu	NOUN	N	Gender=Masc|Number=Plur	3	conj	3:conj	GEŠTIN.MEŠ
-6	diqārī	diqāru	NOUN	N	Gender=Masc|Number=Plur	3	conj	3:conj	UTUL₂.MEŠ
-7	gurpissī	qurpissu	NOUN	N	Gender=Masc|Number=Plur	3	conj	3:conj	gur-pi-si.MEŠ
-8	attahar	mahāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	at-ta-har
 
 # sent_id = Q004471-194
 # text = Kašiyaru attabalkat šaniātešu ana māt Nairi attarda
@@ -18245,23 +18120,6 @@
 4	ša	ša	ADP	DET	_	5	case	5:case	ša₂
 5	Amme-baʾli	Ammi-baʾal	PROPN	PN	Gender=Masc	3	nmod	3:nmod	{m}am-me-ba-aʾ-li
 6	allik	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	_
-
-# sent_id = Q004471-245
-# text = ultu pān namurrat kakkīya u šurbat bēlūtiya ēdurūma
-1	ultu	ištu	ADP	PRP	_	2	case	2:case	TA
-2	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	10	obl	10:obl	IGI
-3	namurrat	namurratu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	2	nmod:poss	2:nmod:poss	na-mu-ra-at
-4-5	kakkīya	_	_	_	_	_	_	_	_
-4	kakkī	kakku	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Plur	3	nmod:poss	3:nmod:poss	{GIŠ}TUKUL.MEŠ-a
-5	ya	_	PRON	_	Number=Sing|Person=1	4	det:poss	4:det:poss	_
-6	u	u	CCONJ	CNJ	_	7	cc	7:cc	u
-7	šurbat	šuribatu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	3	conj	3:conj	šur-ba-at
-8-9	bēlūtiya	_	_	_	_	_	_	_	_
-8	bēlūti	bēlūtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Suffixal|Number=Sing	7	nmod:poss	7:nmod:poss	EN-ti-a
-9	ya	_	PRON	_	Number=Sing|Person=1	8	det:poss	8:det:poss	_
-10-11	ēdurūma	_	_	_	_	_	_	_	_
-10	ēdurū	adāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	e-du-ru-ma
-11	ma	_	CCONJ	_	_	10	dep	10:dep	_
 
 # sent_id = Q004471-247
 # text = Kalhu mahrâ ša Šalmanu-ašared šar māt Aššur rubû ālik pāniya ēpušu
@@ -21670,157 +21528,6 @@
 21	Aššur	Aššur	PROPN	GN	Gender=Masc	20	nmod:poss	20:nmod:poss	aš-šur-ma
 22	ma	_	PART	_	_	21	dep	21:dep	_
 
-# sent_id = Q004455-2
-# text = Aššur-naṣir-apli šarru dannu šar kiššati šar lā šanān šar kullat kibrāt erbetta Šamšu kiššat nišī nišīt Enlil u Ninurta narām Ani u Dagan kašūš ilāni rabûti šahtu narām libbika rubû megir Enlil ša šangûssu eli ilūtika rabīti iṭibbuma tušaršidu palâšu eṭlu qardu ša ina tukulti Aššur bēlišu ittallakuma ina malkī ša kibrāt erbetta šāninšu lā īšû rēʾû tabrâte lā ādiru tuqumti edû gapšu ša māhira lā īšû šar mušakniš lā kanšūtešu ša naphar kiššat nišī ipēlu zikaru dannu mukabbis kišād ayyābīšu dāʾiš kullat nakirē muparriru kiṣir multarhī ša ina tukulti ilāni rabûti bēlēšu ittallakuma mātāti kalîšina qātsu ikšud huršānī pāṭ gimrišunu ipēluma bilatsunu imhuru ṣābit līṭē šākin līte
-1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}aš-šur-PAP-A
-2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	MAN
-3	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	2:amod	dan-nu
-4	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	MAN
-5	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	4	nmod:poss	4:nmod:poss	ŠU₂
-6	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	MAN
-7	lā	lā	PART	MOD	_	6	nmod:poss	6:nmod:poss	la
-8	šanān	šanānu	NOUN	V	Gender=Masc|NounBase=Bound|Number=Sing	7	nmod:poss	7:nmod:poss	ša₂-na-an
-9	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	MAN
-10	kullat	kullatu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	9	nmod:poss	9:nmod:poss	kul₂-lat
-11	kibrāt	kibru	NOUN	N	Gender=Fem|NounBase=Bound|Number=Plur	10	nmod:poss	10:nmod:poss	kib-rat
-12	erbetta	erbe	NUM	NU	Gender=Fem	11	nummod	11:nummod	4-ta
-13	Šamšu	Šamaš	PROPN	DN	Case=Nom|Gender=Masc	1	appos	1:appos	{d}šam-šu
-14	kiššat	kiššatu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	13	nmod:poss	13:nmod:poss	kiš-šat
-15	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	14	nmod:poss	14:nmod:poss	UN.MEŠ
-16	nišīt	nišītu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	1	appos	1:appos	ni-šit
-17	Enlil	Enlil	PROPN	DN	Gender=Masc	16	nmod:poss	16:nmod:poss	{d}BAD
-18	u	u	CCONJ	CNJ	_	19	cc	19:cc	u
-19	Ninurta	Ninurta	PROPN	DN	Gender=Masc	17	conj	17:conj	{d}MAŠ
-20	narām	narāmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	na-ra-am
-21	Ani	An	PROPN	DN	Case=Gen|Gender=Masc	20	nmod:poss	20:nmod:poss	_
-22	u	u	CCONJ	CNJ	_	23	cc	23:cc	u
-23	Dagan	Dagan	PROPN	DN	Gender=Masc	21	conj	21:conj	{d}da-gan
-24	kašūš	kašūšu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	ka-šu-uš
-25	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	24	nmod:poss	24:nmod:poss	DINGIR.MEŠ
-26	rabûti	rabû	ADJ	AJ	Gender=Masc|Number=Plur	25	amod	25:amod	GAL.MEŠ
-27	šahtu	šahtu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	1	amod	1:amod	šah-tu
-28	narām	narāmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	na-ra-am
-29-30	libbika	_	_	_	_	_	_	_	_
-29	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	28	nmod:poss	28:nmod:poss	ŠA₃-ka
-30	ka	_	PRON	_	Gender=Masc|Number=Sing|Person=2	29	det:poss	29:det:poss	_
-31	rubû	rubû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	NUN-u₂
-32	megir	migru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	me-gir
-33	Enlil	Enlil	PROPN	DN	Gender=Masc	32	nmod:poss	32:nmod:poss	{d}BAD
-34	ša	ša	PRON	DET	_	41	obj	41:obj	ša₂
-35-36	šangûssu	_	_	_	_	_	_	_	_
-35	šangûs	šangûtu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	34	nmod:poss	34:nmod:poss	SANGA-su
-36	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	35	det:poss	35:det:poss	_
-37	eli	eli	ADP	PRP	_	38	case	38:case	UGU
-38-39	ilūtika	_	_	_	_	_	_	_	_
-38	ilūti	ilūtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Suffixal|Number=Sing	41	obl	41:obl	DINGIR-ti-ka
-39	ka	_	PRON	_	Gender=Masc|Number=Sing|Person=2	38	det:poss	38:det:poss	_
-40	rabīti	rabû	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	38	amod	38:amod	GAL-ti
-41-42	iṭibbuma	_	_	_	_	_	_	_	_
-41	iṭibbu	_	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	31	acl:relcl	31:acl:relcl	_
-42	ma	_	CCONJ	_	_	43	cc	43:cc	_
-43	tušaršidu	rašādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=S	41	conj	41:conj	tu-šar-ši-du
-44-45	palâšu	_	_	_	_	_	_	_	_
-44	palâ	palû	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Sing	43	obj	43:obj	BAL-šu₂
-45	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	44	det:poss	44:det:poss	_
-46	eṭlu	eṭlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	eṭ-lu
-47	qardu	qardu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	46	amod	46:amod	qar-du
-48	ša	ša	PRON	REL	_	64	nsubj	64:nsubj	ša₂
-49	ina	ina	ADP	PRP	_	50	case	50:case	ina
-50	tukulti	tukultu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	54	obl	54:obl	{GIŠ}tukul-ti
-51	Aššur	Aššur	PROPN	DN	Gender=Masc	50	nmod:poss	50:nmod:poss	aš-šur
-52-53	bēlišu	_	_	_	_	_	_	_	_
-52	bēli	bēlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	51	appos	51:appos	EN-šu₂
-53	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	52	det:poss	52:det:poss	_
-54-55	ittallakuma	_	_	_	_	_	_	_	_
-54	ittallaku	_	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Gtn	46	acl:relcl	46:acl:relcl	_
-55	ma	_	CCONJ	_	_	64	cc	64:cc	_
-56	ina	ina	ADP	PRP	_	57	case	57:case	ina
-57	malkī	malku	NOUN	N	Gender=Masc|Number=Plur	64	obl	64:obl	mal-ki.MEŠ
-58	ša	ša	ADP	DET	_	59	case	59:case	ša₂
-59	kibrāt	kibru	NOUN	N	Gender=Fem|NounBase=Bound|Number=Plur	57	nmod	57:nmod	kib-rat
-60	erbetta	erbe	NUM	NU	Gender=Fem	59	nummod	59:nummod	4-ta
-61-62	šāninšu	_	_	_	_	_	_	_	_
-61	šānin	šāninu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Sing	64	obj	64:obj	ša₂-nin-šu₂
-62	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	61	det:poss	61:det:poss	_
-63	lā	lā	PART	MOD	_	64	advmod	64:advmod	la
-64	īšû	išû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	54	conj	54:conj	i-šu₂-u₂
-65	rēʾû	rēʾû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	SIPA
-66	tabrâte	tabrītu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	65	nmod:poss	65:nmod:poss	tab-ra-a-te
-67	lā ādiru	lā|ādiru	ADJ	MOD|N	Case=Nom|Gender=Masc|Number=Sing	1	amod	1:amod	la|a-di-ru
-68	tuqumti	tuqumtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	67	nmod:poss	67:nmod:poss	{GIŠ}LAL
-69	edû	edû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	e-du-u₂
-70	gapšu	gapšu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	69	amod	69:amod	gap-šu₂
-71	ša	ša	PRON	DET	_	74	nsubj	74:nsubj	ša₂
-72	māhira	māhiru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	74	obj	74:obj	ma-hi-ra
-73	lā	lā	PART	MOD	_	74	advmod	74:advmod	la-a
-74	īšû	išû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	69	acl:relcl	69:acl:relcl	i-šu₂-u₂
-75	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	MAN
-76	mušakniš	mušaknišu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	75	nmod:poss	75:nmod:poss	mu-šak-niš{iš₃}
-77-78	lā kanšūtešu	_	_	_	_	_	_	_	_
-77	lā kanšūte	lā|kanšu	NOUN	MOD|N	Gender=Masc|NounBase=Suffixal|Number=Plur	76	nmod:poss	76:nmod:poss	la-a|kan-šu-te-šu₂
-78	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	77	det:poss	77:det:poss	_
-79	ša	ša	PRON	DET	_	83	nsubj	83:nsubj	ša₂
-80	naphar	napharu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	83	obj	83:obj	nap-har
-81	kiššat	kiššatu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	80	nmod:poss	80:nmod:poss	kiš-šat
-82	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	81	nmod:poss	81:nmod:poss	UN.MEŠ
-83	ipēlu	bêlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	75	acl:relcl	75:acl:relcl	i-pe-lu
-84	zikaru	zikaru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	_
-85	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	84	amod	84:amod	dan-nu
-86	mukabbis	mukabbisu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	mu-kab-bi-is
-87	kišād	kišādu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	86	nmod:poss	86:nmod:poss	GU₂
-88-89	ayyābīšu	_	_	_	_	_	_	_	_
-88	ayyābī	ayyābu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Plur	87	nmod:poss	87:nmod:poss	a-a-bi-šu₂
-89	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	88	det:poss	88:det:poss	_
-90	dāʾiš	dāʾišu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	da-iš
-91	kullat	kullatu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	90	nmod:poss	90:nmod:poss	kul-lat
-92	nakirē	nakru	NOUN	N	Gender=Masc|Number=Plur	91	nmod:poss	91:nmod:poss	KUR₂.MEŠ
-93	muparriru	muparriru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	mu-pa-ri-ru
-94	kiṣir	kiṣru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	93	nmod:poss	93:nmod:poss	ki-iṣ-ri
-95	multarhī	muštarhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	94	nmod:poss	94:nmod:poss	mul-tar-hi
-96	ša	ša	PRON	REL	_	103	nsubj	103:nsubj	ša₂
-97	ina	ina	ADP	PRP	_	98	case	98:case	ina
-98	tukulti	tukultu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	103	obl	103:obl	{GIŠ}tukul-ti
-99	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	98	nmod:poss	98:nmod:poss	DINGIR.MEŠ
-100	rabûti	rabû	ADJ	AJ	Gender=Masc|Number=Plur	99	amod	99:amod	GAL.MEŠ
-101-102	bēlēšu	_	_	_	_	_	_	_	_
-101	bēlē	_	NOUN	_	Gender=Masc|NounBase=Suffixal|Number=Plur	99	appos	99:appos	_
-102	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	101	det:poss	101:det:poss	_
-103-104	ittallakuma	_	_	_	_	_	_	_	_
-103	ittallaku	_	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Gtn	93	acl:relcl	93:acl:relcl	_
-104	ma	_	CCONJ	_	_	110	cc	110:cc	_
-105	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	110	obj	110:obj	KUR.KUR.MEŠ
-106-107	kalîšina	_	_	_	_	_	_	_	_
-106	kalî	kalû	DET	N	_	105	amod	105:amod	DU₃-ši-na
-107	šina	_	PRON	_	Gender=Fem|Number=Plur|Person=3	106	det:poss	106:det:poss	_
-108-109	qātsu	_	_	_	_	_	_	_	_
-108	qāt	qātu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	110	nsubj	110:nsubj	qat-su
-109	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	108	det:poss	108:det:poss	_
-110	ikšud	kašādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	103	conj	103:conj	_
-111	huršānī	huršānu	NOUN	N	Gender=Masc|Number=Plur	115	obj	115:obj	hur-ša₂-ni
-112	pāṭ	pāṭu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	111	appos	111:appos	paṭ
-113-114	gimrišunu	_	_	_	_	_	_	_	_
-113	gimri	gimru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	112	nmod:poss	112:nmod:poss	gim-ri-šu₂-nu
-114	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	113	det:poss	113:det:poss	_
-115-116	ipēluma	_	_	_	_	_	_	_	_
-115	ipēlu	bêlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	103	conj	103:conj	i-pe-lu-ma
-116	ma	_	CCONJ	_	_	119	cc	119:cc	_
-117-118	bilatsunu	_	_	_	_	_	_	_	_
-117	bilat	biltu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	119	obj	119:obj	bi-lat-su-nu
-118	sunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	117	det:poss	117:det:poss	_
-119	imhuru	mahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	103	conj	103:conj	_
-120	ṣābit	ṣābitu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	ṣa-bit
-121	līṭē	līṭu	NOUN	N	Gender=Masc|Number=Plur	120	nmod:poss	120:nmod:poss	li-i-ṭi₂
-122	šākin	šākinu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	ša₂-kin₃
-123	līte	lītu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	122	nmod:poss	122:nmod:poss	_
-
-# sent_id = Q004455-3
-# text = eli kalîšina mātāti
-1	eli	eli	ADP	PRP	_	2	case	2:case	UGU
-2-3	kalîšina	_	_	_	_	_	_	_	_
-2	kalî	kalû	DET	N	_	4	amod	4:amod	DU₃-ši-na
-3	šina	_	PRON	_	Gender=Fem|Number=Plur|Person=3	2	det:poss	2:det:poss	_
-4	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	0	root	0:root	KUR.KUR.MEŠ
-
 # sent_id = Q004455-4
 # text = enūma Aššur bēlu nābû šumiya mušarbû šarrūtiya kakkašu lā pādâ ana idât bēlūtiya lū itmuh
 1	enūma	inūma	ADV	SBJ	_	18	advmod	18:advmod	e-nu-ma
@@ -22218,17 +21925,6 @@
 1	šadû	šadû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	2	nsubj	2:nsubj	KUR
 2	marṣu	marṣu	VERB	AJ	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	root	0:root	GIG
 3	danniš	danniš	ADV	AV	_	2	advmod	2:advmod	dan-niš
-
-# sent_id = Q004455-20
-# text = arkišunu
-1-2	arkišunu	_	_	_	_	_	_	_	_
-1	arki	warki	ADP	PRP	_	0	root	0:root	EGIR-šu₂-nu
-2	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	1	det	1:det	_
-
-# sent_id = Q004455-21
-# text = lā allik
-1	lā	lā	PART	MOD	_	2	advmod	2:advmod	la
-2	allik	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	a-lik
 
 # sent_id = Q004455-22
 # text = šadû kīma ziqip patri parzilli šēssu nādi u iṣṣūr šamê muttaprišu qerebšu lā iʾīru
@@ -24051,33 +23747,6 @@
 6	ušaṣbis	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=S	0	root	0:root	u₂-ša₂-aṣ-bi-su-nu
 7	sunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	6	obj	6:obj	_
 
-# sent_id = Q004455-126
-# text = biltu u maddattu sisê kūdanī alpī immerī karānī diqārī siparri zabbil kudurri
-1	biltu	biltu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	0	root	0:root	_
-2	u	u	CCONJ	CNJ	_	3	cc	3:cc	u
-3	maddattu	maddattu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	1	conj	1:conj	ma-da-tu₂
-4	sisê	sisû	NOUN	N	Gender=Masc|Number=Plur	1	appos	1:appos	ANŠE.KUR.RA.MEŠ
-5	kūdanī	kūdanu	NOUN	N	Gender=Masc|Number=Plur	4	conj	4:conj	{ANŠE}GIR₃.NUN.NA.MEŠ
-6	alpī	alpu	NOUN	N	Gender=Masc|Number=Plur	4	conj	4:conj	GU₄.MEŠ
-7	immerī	immeru	NOUN	N	Gender=Masc|Number=Plur	4	conj	4:conj	UDU.MEŠ
-8	karānī	karānu	NOUN	N	Gender=Masc|Number=Plur	4	conj	4:conj	GEŠTIN.MEŠ
-9	diqārī	diqāru	NOUN	N	Gender=Masc|Number=Plur	4	conj	4:conj	UTUL₂.MEŠ
-10	siparri	siparru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	9	nmod:poss	9:nmod:poss	ZABAR
-11	zabbil	zabbilu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	4	conj	4:conj	{LU₂}za-bi-il
-12	kudurri	kudurru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	11	nmod:poss	11:nmod:poss	ku-du-ri
-
-# sent_id = Q004455-127
-# text = eli ša pān ušātir ana ālišunu aškun
-1	eli	eli	ADP	PRP	_	4	advmod	4:advmod	UGU
-2	ša	ša	ADP	DET	_	1	fixed	1:fixed	ša₂
-3	pān	pānu	ADV	N	_	1	fixed	1:fixed	pa-an
-4	ušātir	watāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=S	0	root	0:root	u₂-ša₂-tir
-5	ana	ana	ADP	PRP	_	6	case	6:case	ana
-6-7	ālišunu	_	_	_	_	_	_	_	_
-6	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	8	obl	8:obl	URU-šu₂-nu
-7	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	6	det:poss	6:det:poss	_
-8	aškun	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	4	conj	4:conj	aš₂-kun
-
 # sent_id = Q004455-128
 # text = mārīšunu kī līṭūte aṣbat
 1-2	mārīšunu	_	_	_	_	_	_	_	_
@@ -24847,33 +24516,6 @@
 4	ma	_	PART	_	_	3	dep	3:dep	_
 5	aktuʾaš	kâšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	ak-tu-aš₂
 
-# sent_id = Q004455-179
-# text = 1 mē 50 ālāni ša Larbusaya Dur-Lullumaya Bunisaya Baraya
-1	1 mē 50	_|meʾatu|_	NUM	n|NU|n	_	2	nummod	2:nummod	1|ME|50
-2	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	0	root	0:root	URU.DIDLI
-3	ša	ša	ADP	DET	_	4	case	4:case	ša₂
-4	Larbusaya	Larbusayu	PROPN	EN	Gender=Masc	2	nmod	2:nmod	{URU}la-ar-bu-sa-a-a
-5	Dur-Lullumaya	Dur-Lullumayu	PROPN	EN	Gender=Masc	4	conj	4:conj	{URU}BAD₃-lu-lu-ma-a-a
-6	Bunisaya	Bunisayu	PROPN	EN	Gender=Masc	4	conj	4:conj	{URU}bu-ni-sa-a-a
-7	Baraya	Barayu	PROPN	EN	Gender=Masc	4	conj	4:conj	{URU}ba-ra-a-a
-
-# sent_id = Q004455-180
-# text = dēktašunu adūk šallassunu ašlul ālāni appul aqqur ina išātāti ašrup
-1-2	dēktašunu	_	_	_	_	_	_	_	_
-1	dēkta	_	NOUN	_	Gender=Fem|NounBase=Suffixal|Number=Sing	3	obj	3:obj	_
-2	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	1	det:poss	1:det:poss	_
-3	adūk	dâku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	a-duk
-4-5	šallassunu	_	_	_	_	_	_	_	_
-4	šallas	šallatu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	6	obj	6:obj	šal-la-su-nu
-5	sunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	4	det:poss	4:det:poss	_
-6	ašlul	šalālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	aš-lul
-7	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	8	obj	8:obj	URU.DIDLI
-8	appul	napālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	a-pul₂
-9	aqqur	naqāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	a-qur
-10	ina	ina	ADP	PRP	_	11	case	11:case	ina
-11	išātāti	_	NOUN	_	Gender=Fem|NounBase=Free|Number=Plur	12	obl	12:obl	_
-12	ašrup	šarāpu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	GIBIL₂-up
-
 # sent_id = Q004455-181
 # text = 50 ummānāti ša Baraya ina mithuṣi ina ṣēri adūk
 1	50	_	NUM	n	_	2	nummod	2:nummod	50
@@ -25073,19 +24715,6 @@
 8	ūmē	ūmu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Plur	7	nmod:poss	7:nmod:poss	UD.MEŠ-a
 9	ya	_	PRON	_	Number=Sing|Person=1	8	det:poss	8:det:poss	_
 10	aktuʾaš	kâšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	2	conj	2:conj	ak-tu-aš₂
-
-# sent_id = Q004455-193
-# text = alpī immerī karānī
-1	alpī	alpu	NOUN	N	Gender=Masc|Number=Plur	0	root	0:root	GU₄.MEŠ
-2	immerī	immeru	NOUN	N	Gender=Masc|Number=Plur	1	conj	1:conj	UDU.MEŠ
-3	karānī	karānu	NOUN	N	Gender=Masc|Number=Plur	1	conj	1:conj	GEŠTIN.MEŠ
-
-# sent_id = Q004455-194
-# text = maddattu ša Dagara attahar
-1	maddattu	maddattu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	4	obj	4:obj	ma-da-tu₂
-2	ša	ša	ADP	DET	_	3	case	3:case	ša₂
-3	Dagara	Dagara	PROPN	GN	_	1	nmod	1:nmod	{KUR}da-ga-ra
-4	attahar	mahāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	at-ta-har
 
 # sent_id = Q004455-195
 # text = ultu šēp Simaki narkabāti dannātu pīthallu ašaressu issiya asseqe
@@ -26072,21 +25701,6 @@
 3	assakan	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	a-sa-kan
 4	bēdāk	_	VERB	_	Gender=Com|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	3	conj	3:conj	_
 
-# sent_id = Q004455-257
-# text = alpī immerī karānī diqār siparrī
-1	alpī	alpu	NOUN	N	Gender=Masc|Number=Plur	0	root	0:root	GU₄.MEŠ
-2	immerī	immeru	NOUN	N	Gender=Masc|Number=Plur	1	conj	1:conj	UDU.MEŠ
-3	karānī	karānu	NOUN	N	Gender=Masc|Number=Plur	1	conj	1:conj	GEŠTIN.MEŠ
-4	diqār	diqāru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	conj	1:conj	UTUL₂
-5	siparrī	siparru	NOUN	N	Gender=Masc|Number=Plur	4	nmod:poss	4:nmod:poss	ZABAR.MEŠ
-
-# sent_id = Q004455-258
-# text = maddattu ša Kibaki attahar
-1	maddattu	maddattu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	4	obj	4:obj	ma-da-tu₂
-2	ša	ša	ADP	DET	_	3	case	3:case	ša₂
-3	Kibaki	Kibaku	PROPN	SN	Case=Gen	1	nmod	1:nmod	{URU}ki-ba-ki
-4	attahar	mahāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	at-ta-har
-
 # sent_id = Q004455-259
 # text = ultu Kibaki attumuš ana Matiati aqṭirib
 1	ultu	ištu	ADP	PRP	_	2	case	2:case	TA
@@ -26824,12 +26438,6 @@
 7	šadî	šadû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	6	appos	6:appos	KUR
 8	danni	dannu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	7	amod	7:amod	dan-ni
 9	ēliʾu	elû	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	e-li-u₂
-
-# sent_id = Q004455-318
-# text = arkišunu
-1-2	arkišunu	_	_	_	_	_	_	_	_
-1	arki	warki	ADP	PRP	_	0	root	0:root	EGIR.MEŠ-šu₂-nu
-2	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	1	det	1:det	_
 
 # sent_id = Q004455-320
 # text = 2 mē ummānāti balṭāti ina qāti uṣabbita kappīšunu ubettiq
@@ -27962,29 +27570,6 @@
 5	ziqibē	ziqpu	NOUN	N	Gender=Masc|Number=Plur	6	obl	6:obl	{GIŠ}zi-qi-be
 6	uzeqqibe	zaqāpu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	3	conj	3:conj	u₂-ze-qi-be
 
-# sent_id = Q004455-397
-# text = ina eleppēti ša ēpušūni eleppēti ša dušê ša ina hūli ištūniš idūlāni
-1	ina	ina	ADP	PRP	_	2	case	2:case	ina
-2	eleppēti	eleppu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	0	root	0:root	{GIŠ}MA₂.MEŠ
-3	ša	ša	PRON	DET	_	4	obj	4:obj	ša₂
-4	ēpušūni	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	2	acl:relcl	2:acl:relcl	_
-5	eleppēti	eleppu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	2	appos	2:appos	{GIŠ}MA₂.MEŠ
-6	ša	ša	ADP	DET	_	7	case	7:case	ša₂
-7	dušê	dušû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	nmod	5:nmod	{KUŠ}DUH.ŠI-e
-8	ša	ša	PRON	REL	_	12	nsubj	12:nsubj	ša₂
-9	ina	ina	ADP	PRP	_	10	case	10:case	ina
-10	hūli	hūlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	12	obl	12:obl	hu-li
-11	ištūniš	ištēniš	ADV	AV	_	12	advmod	12:advmod	iš-tu-niš
-12	idūlāni	_	VERB	_	Gender=Fem|Mood=Ind|Number=Plur|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	5	acl:relcl	5:acl:relcl	_
-
-# sent_id = Q004455-398
-# text = ina Haridi Purattu lū ēbir
-1	ina	ina	ADP	PRP	_	2	case	2:case	ina
-2	Haridi	Haridu	PROPN	SN	Case=Gen	5	obl	5:obl	{URU}ha-ri-di
-3	Purattu	Purattu	PROPN	WN	Case=Nom|Gender=Fem	5	obj	5:obj	{ID₂}pu-rat-tu
-4	lū	lū	PART	MOD	_	5	advmod:emph	5:advmod:emph	lu
-5	ēbir	ebēru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	e-bir
-
 # sent_id = Q004455-399
 # text = Suhaya Laqaya Hindanaya ana gipiš narkabātišunu ummānātišunu emūqīšunu ittaklūma šeš līm ummānātišunu idkûni ana epēš qabli u tāhāzi ana irtiya itbûni
 1	Suhaya	Suhayu	PROPN	EN	Gender=Masc	12	nsubj	12:nsubj	{KUR}su-ha-a-ia
@@ -28019,20 +27604,6 @@
 24	irti	irtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Suffixal|Number=Sing	26	obl	26:obl	GABA-ia
 25	ya	_	PRON	_	Number=Sing|Person=1	24	det:poss	24:det:poss	_
 26	itbûni	tebû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	12	conj	12:conj	it-bu-ni
-
-# sent_id = Q004455-400
-# text = ittešunu
-1-2	ittešunu	_	_	_	_	_	_	_	_
-1	itte	itti	ADP	PRP	_	0	root	0:root	it-te-šu₂-nu
-2	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	1	det	1:det	_
-
-# sent_id = Q004455-401
-# text = amdahhiṣ dabdâšunu aškun
-1	amdahhiṣ	_	VERB	_	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Gt	0	root	0:root	_
-2-3	dabdâšunu	_	_	_	_	_	_	_	_
-2	dabdâ	dabdû	NOUN	N	Case=Acc|Gender=Masc|NounBase=Suffixal|Number=Sing	4	obj	4:obj	BAD₅.BAD₅-šu₂-nu
-3	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	2	det:poss	2:det:poss	_
-4	aškun	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	1	conj	1:conj	aš₂-kun
 
 # sent_id = Q004455-402
 # text = narkabātišunu aṣīʾi šeš līm 5 mē muqtablīšunu ina kakkī ušamqit sītātešunu ina ṣummê ina mudabiri Purattu ēkul
@@ -28108,22 +27679,6 @@
 10	nēpiri	nēberu	NOUN	N	Gender=Masc|Number=Sing	12	obj	12:obj	ne₂-pi-ri
 11	lū	lū	PART	MOD	_	12	advmod:emph	12:advmod:emph	lu
 12	iṣbat	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	6	conj	6:conj	iṣ-bat
-
-# sent_id = Q004455-406
-# text = ittišunu
-1-2	ittišunu	_	_	_	_	_	_	_	_
-1	itti	itti	ADP	PRP	_	0	root	0:root	it-ti-šu₂-nu
-2	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	1	det	1:det	_
-
-# sent_id = Q004455-407
-# text = amdahhiṣ ištu Kipina apiktašu aškun
-1	amdahhiṣ	_	VERB	_	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Gt	0	root	0:root	_
-2	ištu	ištu	ADP	PRP	_	3	case	3:case	iš-tu
-3	Kipina	Kipinu	PROPN	SN	_	6	obl	6:obl	{URU}ki-pi-na
-4-5	apiktašu	_	_	_	_	_	_	_	_
-4	apikta	abiktu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Suffixal|Number=Sing	6	obj	6:obj	a-pi-ik-ta-šu₂
-5	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	4	det:poss	4:det:poss	_
-6	aškun	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	1	conj	1:conj	aš₂-kun
 
 # sent_id = Q004455-408
 # text = 1 līm ṣābē tidūkišu adūk narkabātišu aṣīʾi šallassu maʾatta ašlul ilānišu uterra
@@ -29950,138 +29505,6 @@
 4	ya	_	PRON	_	Number=Sing|Person=1	3	det:poss	3:det:poss	_
 5	aṣbat	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	aṣ-bat
 
-# sent_id = Q004455-527
-# text = Aššur-naṣir-apli šarru rabû šarru dannu šar māt Aššur mār Tukulti-Ninurta šarri rabê šarri danni šar kiššati šar māt Aššur mār Adad-nerari šarri rabê šarri danni šar kiššati šar māt Aššurma eṭlu qardu ša ina tukulti Aššur bēlišu ittallakuma ina malkī ša kibrāt erbetta šāninšu lā īšû rēʾû tabrâte lā ādiru tuqumti edû gapšu ša māhira lā īšû šar mušakniš lā kanšūtešu ša naphar kiššat nišī ipēlu zikaru dannu mukabbis kišād ayyābīšu dāʾiš mātāt nakirē muparriru kiṣir multarhī ša ina tukulti ilāni rabûti bēlēšu ittallakuma mātāti kalîšina qāssu ikšud huršānī kalîšunu ipēluma bilatsunu imhuru
-1	Aššur-naṣir-apli	Aššur-naṣir-apli_II	PROPN	RN	Gender=Masc	0	root	0:root	{m}aš-šur-PAP-A
-2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	MAN
-3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	2:amod	GAL-u₂
-4	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	MAN
-5	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	4	amod	4:amod	dan-nu
-6	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	MAN
-7	māt	mātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	6	nmod:poss	6:nmod:poss	KUR
-8	Aššur	Aššur	PROPN	GN	Gender=Masc	7	nmod:poss	7:nmod:poss	aš-šur
-9	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	A
-10	Tukulti-Ninurta	Tukulti-Ninurta_II	PROPN	RN	Gender=Masc	9	nmod:poss	9:nmod:poss	TUKUL-MAŠ
-11	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	10	appos	10:appos	MAN
-12	rabê	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	11	amod	11:amod	GAL-e
-13	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	10	appos	10:appos	MAN
-14	danni	dannu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	13	amod	13:amod	dan-ni
-15	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	10	appos	10:appos	MAN
-16	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	15	nmod:poss	15:nmod:poss	ŠU₂
-17	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	10	appos	10:appos	MAN
-18	māt	mātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	17	nmod:poss	17:nmod:poss	KUR
-19	Aššur	Aššur	PROPN	GN	Gender=Masc	18	nmod:poss	18:nmod:poss	aš-šur
-20	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	10	appos	10:appos	_
-21	Adad-nerari	Adad-nerari_II	PROPN	RN	Gender=Masc	20	nmod:poss	20:nmod:poss	10-ERIM.TAH₂
-22	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	21	appos	21:appos	_
-23	rabê	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	22	amod	22:amod	GAL-e
-24	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	21	appos	21:appos	_
-25	danni	dannu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	24	amod	24:amod	dan-ni
-26	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	21	appos	21:appos	MAN
-27	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	26	nmod:poss	26:nmod:poss	ŠU₂
-28	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	21	appos	21:appos	MAN
-29	māt	mātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	28	nmod:poss	28:nmod:poss	KUR
-30-31	Aššurma	_	_	_	_	_	_	_	_
-30	Aššur	Aššur	PROPN	GN	Gender=Masc	29	nmod:poss	29:nmod:poss	aš-šur-ma
-31	ma	_	PART	_	_	30	dep	30:dep	_
-32	eṭlu	eṭlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	eṭ-lu
-33	qardu	qardu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	32	amod	32:amod	qar-du
-34	ša	ša	PRON	REL	_	40	nsubj	40:nsubj	ša₂
-35	ina	ina	ADP	PRP	_	36	case	36:case	ina
-36	tukulti	tukultu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	40	obl	40:obl	{GIŠ}tukul-ti
-37	Aššur	Aššur	PROPN	DN	Gender=Masc	36	nmod:poss	36:nmod:poss	aš-šur
-38-39	bēlišu	_	_	_	_	_	_	_	_
-38	bēli	bēlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	37	appos	37:appos	EN-šu₂
-39	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	38	det:poss	38:det:poss	_
-40-41	ittallakuma	_	_	_	_	_	_	_	_
-40	ittallaku	_	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Gtn	32	acl:relcl	32:acl:relcl	_
-41	ma	_	CCONJ	_	_	50	cc	50:cc	_
-42	ina	ina	ADP	PRP	_	43	case	43:case	ina
-43	malkī	malku	NOUN	N	Gender=Masc|Number=Plur	50	obl	50:obl	mal-ki.MEŠ
-44	ša	ša	ADP	DET	_	45	case	45:case	ša₂
-45	kibrāt	kibru	NOUN	N	Gender=Fem|NounBase=Bound|Number=Plur	43	nmod	43:nmod	kib-rat
-46	erbetta	erbe	NUM	NU	Gender=Fem	45	nummod	45:nummod	4-ta
-47-48	šāninšu	_	_	_	_	_	_	_	_
-47	šānin	šāninu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Sing	50	obj	50:obj	ša₂-nin-šu₂
-48	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	47	det:poss	47:det:poss	_
-49	lā	lā	PART	MOD	_	50	advmod	50:advmod	la-a
-50	īšû	išû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	40	conj	40:conj	_
-51	rēʾû	rēʾû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	{LU₂}SIPA
-52	tabrâte	tabrītu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	51	nmod:poss	51:nmod:poss	tab-ra-te
-53	lā ādiru	lā|ādiru	ADJ	MOD|N	Case=Nom|Gender=Masc|Number=Sing	1	amod	1:amod	la|a-di-ru
-54	tuqumti	tuqumtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	53	nmod:poss	53:nmod:poss	{GIŠ}LAL
-55	edû	edû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	e-du-u₂
-56	gapšu	gapšu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	55	amod	55:amod	gap-šu₂
-57	ša	ša	PRON	DET	_	60	nsubj	60:nsubj	ša₂
-58	māhira	māhiru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	60	obj	60:obj	ma-hi-ra
-59	lā	lā	PART	MOD	_	60	advmod	60:advmod	NU
-60	īšû	išû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	55	acl:relcl	55:acl:relcl	_
-61	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	MAN
-62	mušakniš	mušaknišu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	61	nmod:poss	61:nmod:poss	mu-ša₂-ak-ni-iš₃
-63-64	lā kanšūtešu	_	_	_	_	_	_	_	_
-63	lā kanšūte	lā|kanšu	NOUN	MOD|N	Gender=Masc|NounBase=Suffixal|Number=Plur	62	nmod:poss	62:nmod:poss	la-a|kan-šu-te-šu₂
-64	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	63	det:poss	63:det:poss	_
-65	ša	ša	PRON	DET	_	69	nsubj	69:nsubj	ša₂
-66	naphar	napharu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	69	obj	69:obj	nap-har
-67	kiššat	kiššatu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	66	nmod:poss	66:nmod:poss	kiš-šat
-68	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	67	nmod:poss	67:nmod:poss	UN.MEŠ
-69	ipēlu	bêlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	61	acl:relcl	61:acl:relcl	i-pe-lu
-70	zikaru	zikaru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	_
-71	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	70	amod	70:amod	dan-nu
-72	mukabbis	mukabbisu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	mu-kab-bi-is
-73	kišād	kišādu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	72	nmod:poss	72:nmod:poss	GU₂
-74-75	ayyābīšu	_	_	_	_	_	_	_	_
-74	ayyābī	ayyābu	NOUN	N	Gender=Masc|NounBase=Suffixal|Number=Plur	73	nmod:poss	73:nmod:poss	a-a-bi-šu₂
-75	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	74	det:poss	74:det:poss	_
-76	dāʾiš	dāʾišu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	da-i-iš
-77	mātāt	mātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Plur	76	nmod:poss	76:nmod:poss	KUR.KUR
-78	nakirē	nakru	NOUN	N	Gender=Masc|Number=Plur	77	nmod:poss	77:nmod:poss	KUR₂.MEŠ
-79	muparriru	muparriru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	1:appos	mu-pa-ri-ru
-80	kiṣir	kiṣru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	79	nmod:poss	79:nmod:poss	ki-iṣ-ri
-81	multarhī	muštarhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	80	nmod:poss	80:nmod:poss	mul-tar-hi
-82	ša	ša	PRON	REL	_	89	nsubj	89:nsubj	ša₂
-83	ina	ina	ADP	PRP	_	84	case	84:case	ina
-84	tukulti	tukultu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	89	obl	89:obl	{GIŠ}tukul-ti
-85	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	84	nmod:poss	84:nmod:poss	DINGIR.MEŠ
-86	rabûti	rabû	ADJ	AJ	Gender=Masc|Number=Plur	85	amod	85:amod	GAL.MEŠ
-87-88	bēlēšu	_	_	_	_	_	_	_	_
-87	bēlē	_	NOUN	_	Gender=Masc|NounBase=Suffixal|Number=Plur	85	appos	85:appos	_
-88	šu	_	PRON	_	Gender=Masc|Number=Sing|Person=3	87	det:poss	87:det:poss	_
-89-90	ittallakuma	_	_	_	_	_	_	_	_
-89	ittallaku	_	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Gtn	70	acl:relcl	70:acl:relcl	_
-90	ma	_	CCONJ	_	_	96	cc	96:cc	_
-91	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	96	obj	96:obj	_
-92-93	kalîšina	_	_	_	_	_	_	_	_
-92	kalî	kalû	DET	N	_	91	amod	91:amod	DU₃-ši-na
-93	šina	_	PRON	_	Gender=Fem|Number=Plur|Person=3	92	det:poss	92:det:poss	_
-94-95	qāssu	_	_	_	_	_	_	_	_
-94	qās	qātu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	96	nsubj	96:nsubj	ŠU-su
-95	su	_	PRON	_	Gender=Masc|Number=Sing|Person=3	94	det:poss	94:det:poss	_
-96	ikšud	kašādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	89	conj	89:conj	_
-97	huršānī	huršānu	NOUN	N	Gender=Masc|Number=Plur	100	obj	100:obj	hur-ša₂-ni
-98-99	kalîšunu	_	_	_	_	_	_	_	_
-98	kalî	kalû	DET	N	_	97	amod	97:amod	DU₃-šu₂-nu
-99	šunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	98	det:poss	98:det:poss	_
-100-101	ipēluma	_	_	_	_	_	_	_	_
-100	ipēlu	bêlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	89	conj	89:conj	i-pe-lu-ma
-101	ma	_	CCONJ	_	_	104	cc	104:cc	_
-102-103	bilatsunu	_	_	_	_	_	_	_	_
-102	bilat	biltu	NOUN	N	Gender=Fem|NounBase=Suffixal|Number=Sing	104	obj	104:obj	bi-lat-su-nu
-103	sunu	_	PRON	_	Gender=Masc|Number=Plur|Person=3	102	det:poss	102:det:poss	_
-104	imhuru	mahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	89	conj	89:conj	_
-
-# sent_id = Q004455-528
-# text = ṣābit līṭē šākin līte eli kalîšina mātāti
-1	ṣābit	ṣābitu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	root	0:root	ṣa-bit
-2	līṭē	līṭu	NOUN	N	Gender=Masc|Number=Plur	1	nmod:poss	1:nmod:poss	li-i-ṭi₂
-3	šākin	šākinu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	1:appos	ša₂-kin₂
-4	līte	lītu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	3	nmod:poss	3:nmod:poss	_
-5	eli	eli	ADP	PRP	_	6	case	6:case	UGU
-6-7	kalîšina	_	_	_	_	_	_	_	_
-6	kalî	kalû	DET	N	_	8	amod	8:amod	DU₃-ši-na
-7	šina	_	PRON	_	Gender=Fem|Number=Plur|Person=3	6	det:poss	6:det:poss	_
-8	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	3	obj	3:obj	_
-
 # sent_id = Q004455-529
 # text = enūma Aššur bēlu nābû šumiya mušarbû šarrūtiya kakkašu lā pādâ ana idât bēlūtiya lū itmuh
 1	enūma	inūma	ADV	SBJ	_	18	advmod	18:advmod	e-nu-ma
@@ -30384,21 +29807,18 @@
 12	ēpuš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl:relcl	1:acl:relcl	DU₃-uš
 
 # sent_id = Q004455-543
-# text = ālu šū
-1	ālu	ālu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	root	0:root	_
+# text = ālu šū ēnahma iṣlal ana tīli u karmē itūr
+1	ālu	ālu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	3	nsubj	3:nsubj	_
 2	šū	šū	DET	IP	Gender=Masc|Number=Sing|Person=3	1	amod	1:amod	šu-u₂
-
-# sent_id = Q004455-544
-# text = ēnahma iṣlal ana tīli u karmē itūr
-1-2	ēnahma	_	_	_	_	_	_	_	_
-1	ēnah	anāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	e-na-ah-ma
-2	ma	_	CCONJ	_	_	3	cc	3:cc	_
-3	iṣlal	ṣalālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	1	conj	1:conj	iṣ-lal
-4	ana	ana	ADP	PRP	_	5	case	5:case	ana
-5	tīli	tīlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	8	obl	8:obl	_
-6	u	u	CCONJ	CNJ	_	7	cc	7:cc	u
-7	karmē	karmu	NOUN	N	Gender=Masc|Number=Plur	5	conj	5:conj	kar-me
-8	itūr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	1	conj	1:conj	_
+3-4	ēnahma	_	_	_	_	_	_	_	_
+3	ēnah	anāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	0:root	e-na-ah-ma
+4	ma	_	CCONJ	_	_	5	cc	5:cc	_
+5	iṣlal	ṣalālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	iṣ-lal
+6	ana	ana	ADP	PRP	_	7	case	7:case	ana
+7	tīli	tīlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	10	obl	10:obl	_
+8	u	u	CCONJ	CNJ	_	9	cc	9:cc	u
+9	karmē	karmu	NOUN	N	Gender=Masc|Number=Plur	7	conj	7:conj	kar-me
+10	itūr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	3:conj	_
 
 # sent_id = Q004455-545
 # text = ālu šū ana eššūte abni

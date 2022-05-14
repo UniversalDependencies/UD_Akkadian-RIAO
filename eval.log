@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Akkadian-RIAO:
-commit b3507da076d2a0e7bcfdae756a2098cc38d07694
-Merge: f92962c 62fd87e
+commit 0e03d2d10382aee402db3f67497819eb3093bc16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Nov 3 15:50:32 2021 +0100
 Size: counted 23155 of 23155 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.28442147986543.
 Size: maximum value 13.815511 is for 1000000 words or more.

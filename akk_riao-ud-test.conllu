@@ -21719,7 +21719,6 @@
 
 # sent_id = Q004455-11
 # text = ina ūmešuma Aššur-naṣir-apli rubû naʾdu pālih ilāni rabûti ša biblāt libbišu Enlil ušakšidušuma naphar malkī lā māgirīšu ikšudu rabītu qāssu kāšid ayyābīšu ša ina ašri namrāṣi uparriru kiṣir multarhī
-# text = ina ūmešuma Aššur-naṣir-apli rubû naʾdu pālih ilāni rabûti ša biblāt libbišu Enlil ušakšidušuma naphar malkī lā māgirīšu ikšudu rabītu qāssu kāšid ayyābīšu ša ina ašri namrāṣi uparriru kiṣir multarhī
 1	ina	ina	ADP	PRP	_	2	case	_	ina
 2-4	ūmešuma	_	_	_	_	_	_	_	_
 2	ūme	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	16	obl	_	u₄-me-šu₂-ma

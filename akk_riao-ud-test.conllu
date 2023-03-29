@@ -2086,7 +2086,7 @@
 8	qardu	qardu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	qar-du
 9	šarhu	šarhu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	šar-hu
 10	gitmālu	gitmālu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	git₂-ma-lu
-11	ša	ša	PRON	REL	_	15	nsubj	_	ša₂
+11	ša	ša	PRON	REL	_	15	nmod:poss	_	ša₂
 12	ina	ina	ADP	PRP	_	13	case	_	ina
 13	tāhāzi	tāhāzu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	15	obl	_	ME₃
 14	lā	lā	PART	MOD	_	15	advmod	_	la-a
@@ -18851,7 +18851,7 @@
 108	īšû	išû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	98	conj	_	i-šu-u₂
 109	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	_	MAN
 110	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	109	amod	_	dan-nu
-111	ša	ša	PRON	REL	_	130	nsubj	_	ša₂
+111	ša	ša	PRON	REL	_	130	nmod:poss	_	ša₂
 112	ištu	ištu	ADP	PRP	_	113	case	_	iš-tu
 113	ebertān	ebertān	NOUN	AV	Gender=Fem|NounBase=Bound|Number=Sing	130	obl	_	e-ber-ta-an
 114	Idiqlat	Idiqlat	PROPN	WN	Gender=Fem	113	nmod:poss	_	{ID₂}IDIGNA

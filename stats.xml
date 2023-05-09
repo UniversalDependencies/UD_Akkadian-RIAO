@@ -5,14 +5,14 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1874</sentences><tokens>20507</tokens><words>23155</words><fused>2565</fused></total>
+    <total><sentences>1874</sentences><tokens>20517</tokens><words>23165</words><fused>2565</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1874</sentences><tokens>20507</tokens><words>23155</words><fused>2565</fused></test>
+    <test><sentences>1874</sentences><tokens>20517</tokens><words>23165</words><fused>2565</fused></test>
   </size>
-  <lemmas unique="1566" /><!-- ša, ina, šarru, ana, mātu, Aššur, ištu, u, ālu, adi, māru, lū, dannu, rabû, kiššatu -->
-  <forms unique="2914" /><!-- ša, ina, šu, ana, ya, šunu, Aššur, šar, u, māt, ma, ultu, adi, lū, mār -->
-  <fusions unique="617" /><!-- Aššurma, šallassunu, mātiya, bēliya, elišunu, šarrūtiya, kakkīya, šēpīya, bēlūtiya, sihirtiša, dēktašunu, ūmešuma, gimriša, pāniya, qāssu -->
+  <lemmas unique="1567" /><!-- ša, ina, šarru, ana, mātu, Aššur, ištu, u, ālu, adi, māru, lū, dannu, rabû, kiššatu -->
+  <forms unique="2915" /><!-- ša, ina, šu, ana, ya, šunu, Aššur, šar, u, māt, ma, ultu, adi, lū, mār -->
+  <fusions unique="618" /><!-- Aššurma, šallassunu, mātiya, bēliya, elišunu, šarrūtiya, kakkīya, šēpīya, bēlūtiya, sihirtiša, dēktašunu, ūmešuma, gimriša, pāniya, qāssu -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="13">
     <tag name="ADJ">923</tag><!-- dannu, rabû, _, mādu, rapšu, balṭu, marṣu, lā|pādû, qardu, kabtu -->
@@ -22,7 +22,7 @@
     <tag name="DET">156</tag><!-- kalû, šū, šuāti, annû, ammiu, šī, gabbu, kalāma, mimma, šuātunu -->
     <tag name="NOUN">8729</tag><!-- šarru, mātu, _, ālu, māru, kiššatu, bēlu, šadû, ēkallu, ummānu -->
     <tag name="NUM">328</tag><!-- _, _|meʾatu, _|līm, _|meʾatu|_, erbe, 20, 30, ištēn, _|līm|_|meʾatu, arbaʾu -->
-    <tag name="PART">492</tag><!-- lū, _, lā, mā, ul, ma -->
+    <tag name="PART">502</tag><!-- lū, _, lā, mā, ul, ma -->
     <tag name="PRON">2637</tag><!-- _, ša, mammāna, anāku, ammar, mannu, šuāti, mamman, yâši, attunu -->
     <tag name="PROPN">3023</tag><!-- Aššur, Aššur-naṣir-apli_II, Tukulti-Ninurta_II, Adad-narari_II, Enlil, Šamaš, _, Adad, Purattu, Ninurta -->
     <tag name="SCONJ">35</tag><!-- kī, ša, inūma, ašru, ašāru, aššu, warki, šumma -->
@@ -74,7 +74,7 @@
     <dep name="acl">2</dep>
     <dep name="acl:relcl">247</dep>
     <dep name="advcl">49</dep>
-    <dep name="advmod">226</dep>
+    <dep name="advmod">236</dep>
     <dep name="advmod:emph">192</dep>
     <dep name="amod">1007</dep>
     <dep name="appos">1911</dep>
@@ -92,8 +92,8 @@
     <dep name="iobj">3</dep>
     <dep name="mark">35</dep>
     <dep name="nmod">660</dep>
-    <dep name="nmod:poss">3075</dep>
-    <dep name="nsubj">519</dep>
+    <dep name="nmod:poss">3077</dep>
+    <dep name="nsubj">517</dep>
     <dep name="nummod">317</dep>
     <dep name="obj">1875</dep>
     <dep name="obl">2568</dep>

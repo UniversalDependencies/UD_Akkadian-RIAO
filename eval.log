@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Akkadian-RIAO:
-commit ca54a79325a74005ed15eaf12a544fa2c9ba01d3
+commit c25209b5ec9b4dd6982ad53999da6672a8bc3e91
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:24:56 2023 +0100
+Date:   Sun May 5 11:47:42 2024 +0200
 Size: counted 23165 of 23165 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.28528503773722.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,10 @@ Udapi: found 3254 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23165 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang akk --max-err=10 UD_Akkadian-RIAO/akk_riao-ud-test.conllu
+[Line 6277 Sent Q004484-34 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:sunu:det --> 3:rabītu:amod)
+[Line 18793 Sent Q004510-1 Node 53]: [L3 Warning leaf-det] 'det' not expected to have children (53:šu:det --> 55:bilti:nmod)
+[Line 21752 Sent Q004455-11 Node 23]: [L3 Warning leaf-det] 'det' not expected to have children (23:šu:det --> 26:qās:nsubj)
+Warnings: 3
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769

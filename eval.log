@@ -1,64 +1,7 @@
-Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
-Evaluating the following revision of UD_Akkadian-RIAO:
-commit 23866946fa362755fd611225d82dbda6682dc504
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 18:38:28 2025 +0100
-CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
-Language-treebank code (from CoNLL-U file name) = 'akk_riao'
-Language code (from CoNLL-U file name) = 'akk'
-Found the following data files: akk_riao-ud-test.conllu
-Size: counted 23165 of 23165 words (nodes).
-Size: min(0, log((N/1000)**2)) = 6.28528503773722.
-Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Found at least 10000 test words.
-Lemmas: '_' is the most frequent lemma.
-Universal POS tags: 13 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 17480 out of 23165 total words have one or more features.
-Features: source of annotation (from README) factor is 1.
-Universal relations: 26 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 1.
-Genres: found 2 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang akk --max-err=10 UD_Akkadian-RIAO/akk_riao-ud-test.conllu
-[Line 79 Sent Q004495-2]: [L3 Warning pron-det-without-prontype] The word 'šu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 82 Sent Q004495-2]: [L3 Warning pron-det-without-prontype] The word 'su' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 156 Sent Q006033-1]: [L3 Warning pron-det-without-prontype] The word 'ša' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 166 Sent Q006033-6]: [L3 Warning pron-det-without-prontype] The word 'šu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 174 Sent Q006033-6]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 177 Sent Q006033-6]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 187 Sent Q006033-9]: [L3 Warning pron-det-without-prontype] The word 'ya' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 194 Sent Q006033-9]: [L3 Warning pron-det-without-prontype] The word 'ya' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 205 Sent Q006033-10]: [L3 Warning pron-det-without-prontype] The word 'ya' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 206 Sent Q006033-10]: [L3 Warning fixed-without-extpos] Fixed expression 'eli ša pān' does not have the 'ExtPos' feature
-[Line 206 Sent Q006033-10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('eli')
-...suppressing further errors regarding Warning
-[Line 1548 Sent Q004473-86]: [L3 Syntax too-many-objects] Multiple direct objects [1, 6] ('dēkta', 'ašlula') under the predicate 'adūk'.
-[Line 1706 Sent Q004473-92]: [L3 Syntax too-many-objects] Multiple direct objects [1, 5] ('Bur-ramanu', 'su') under the predicate 'akūs'.
-[Line 1795 Sent Q004473-97]: [L3 Syntax too-many-objects] Multiple direct objects [12, 15] ('ša', 'šunu') under the predicate 'ikbusū'.
-[Line 2130 Sent Q004457-1]: [L3 Syntax too-many-objects] Multiple direct objects [41, 45] ('ša', 'purussê') under the predicate 'ipparrasu'.
-[Line 2154 Sent Q004457-1]: [L3 Syntax too-many-objects] Multiple direct objects [71, 74] ('ša', 'siqir') under the predicate 'uttakkaru'.
-[Line 2175 Sent Q004457-1]: [L3 Syntax too-many-objects] Multiple direct objects [85, 86] ('ša', 'kippat') under the predicate 'paqdu'.
-[Line 2482 Sent Q004457-7]: [L3 Syntax too-many-objects] Multiple direct objects [10, 14] ('Laqe', 'Suhi') under the predicate 'ušekniša'.
-[Line 2553 Sent Q004457-11]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('ša', 'šina') under the predicate 'apēlu'.
-[Line 2655 Sent Q004524-3]: [L3 Syntax too-many-objects] Multiple direct objects [1, 11] ('ēkal', 'uššē') under the predicate 'addi'.
-...suppressing further errors regarding Syntax
-Syntax errors: 117
-Warnings: 2808
-*** FAILED *** with 117 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
-(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
-(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
-(weight=0.37037037037037) * (score{size}=0.454944101513058) = 0.168497815375207
-(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
-(weight=0.111111111111111) * (score{tags}=0.688235294117647) = 0.0764705882352941
-(weight=0.111111111111111) * (score{udeprels}=0.702702702702703) = 0.0780780780780781
-(TOTAL score=0.472799568108332) * (availability=1) * (validity=0.01) = 0.00472799568108332
-STARS = 0
-UD_Akkadian-RIAO	0.00472799568108332	0
+Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
+Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
+Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
+Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
+from which this script is invoked and which also holds the validator.
+$0 == tools/evaluate_treebank.pl
+The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.

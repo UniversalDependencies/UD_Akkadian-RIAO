@@ -13755,7 +13755,7 @@
 2	tāhāzi	tāhāzu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	10	obl	_	ME₃
 3	ša	ša	ADP	DET	_	4	case	_	ša
 4	šarrāni	šarru	NOUN	N	Gender=Masc|Number=Plur	2	nmod	_	MAN.MEŠ-ni
-5	ašar	ašru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	8	obl	_	a-šar
+5	ašar	ašru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	8	nmod	_	a-šar
 6	taqrubte	taqrubtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	5	nmod:poss	_	taq₃-ru-ub-te
 7	ammar	ammar	ADP	PRP	_	8	case	_	am-mar
 8-9	libbišu	_	_	_	_	_	_	_	_
@@ -14878,7 +14878,7 @@
 # sent_id = Q004471-6
 # text = ina biblāt libbiya u terṣi qātiya Ištar bēltu rā’imat šangûtiya lū tamgurannima epēš qabli u tāhāzi libbaša ublamma
 1	ina	ina	ADP	PRP	_	2	case	_	ina
-2	biblāt	biblu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Plur	9	obl	_	bi-ib-lat
+2	biblāt	biblu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Plur	9	nmod	_	bi-ib-lat
 3-4	libbiya	_	_	_	_	_	_	_	_
 3	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Suffixal|Number=Sing	2	nmod:poss	_	lib₃-bi-ia
 4	ya	_	PRON	_	Number=Sing|Person=1	3	det:poss	_	_
@@ -15149,7 +15149,7 @@
 # sent_id = Q004471-18
 # text = ina 3 UD.ME.KAM₂ qurādu šadû ihīṭa
 1	ina	ina	ADP	PRP	_	2	case	_	ina
-2	3	_	NUM	n	_	4	obl	_	3
+2	3	_	NUM	n	_	4	nmod	_	3
 3	UD.ME.KAM₂	_	ADJ	n	_	2	amod	_	UD.ME.KAM₂
 4	qurādu	qurādu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	6	nsubj	_	UR.SAG
 5	šadû	šadû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	6	obj	_	KUR-u₂

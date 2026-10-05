@@ -91,12 +91,12 @@
     <dep name="fixed">19</dep>
     <dep name="iobj">3</dep>
     <dep name="mark">35</dep>
-    <dep name="nmod">660</dep>
+    <dep name="nmod">663</dep>
     <dep name="nmod:poss">3077</dep>
     <dep name="nsubj">517</dep>
     <dep name="nummod">317</dep>
     <dep name="obj">1875</dep>
-    <dep name="obl">2568</dep>
+    <dep name="obl">2565</dep>
     <dep name="parataxis">19</dep>
     <dep name="root">1874</dep>
     <dep name="vocative">1</dep>
